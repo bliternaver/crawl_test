@@ -1,0 +1,23 @@
+I want to create a python program that enters a URL I provide and crawls through the posts that have been posted.
+
+첫번째로는https://www.revu.net/category/%EC%98%A4%EB%8A%98%EC%98%A4%ED%94%88
+I want to go through the list and get the content of each post.
+The second is https://www.revu.net/category/%EA%B8%B0%EC%9E%90%EB%8B%A8
+ I want to use MariaDB for the DB
+
+I want the title to be wrapped in h2 tags in the campaign-head class, the title to be wrapped in square brackets, and I want to extract the content and store it in the category_type field, and the title to be stored in the title field, and the site_name, site_code field is revu, type is site, site_url is the post url, imagename is the img thumbnail address in the div of the campaign-cover class, and star_date is the con ng-binding tag that gets the ~front date and merges it with the current year to make it look like yyyy-mm-dd 00: 00:01, and for end_date I want to get the ~backward date and put it in the form of yyyy-mm-dd 23:59: 59, but the status of the newly entered data is O. In the KEYWORDS field, I want to put 3 strong tags with the ng-binding class of the 2nd DD tag of the DL with the scrollspy-hashtag ID. In the site_logo field, I want to get the path of the img image in the header-menu class, and in the pub_date and reg_date, I want to put the insert time.
+In the guid field, I want to put the current URL as the last address value.
+
+
+
+I want to crawl it with python and create a batch file so I can run it manually.
+3
+
+
+
+내가 제공하는 url의 게시글목록의 각각 게시글 내용을 파싱해서 db에 저장하는 크롤링툴을 만들고싶어
+
+https://www.revu.net/category/%EC%98%A4%EB%8A%98%EC%98%A4%ED%94%88,https://www.revu.net/category/%EA%B8%B0%EC%9E%90%EB%8B%A8
+2가지 url 의 게시글을 읽어서 그내용을 필드별로 파싱해서 가져오고싶어
+
+파이썬으로 크롤 하고싶어 수동으로 작동될수있도록 배치 파일도 만들어주고
